@@ -7,9 +7,11 @@
   --cor5: #004d40; /* Navegação escura */
   --cor6: #ffffff; /* Branco */
 }
+
 div {
   margin: 0;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--cor0);
@@ -22,7 +24,7 @@ header {
   background: var(--cor1);
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Ajustado para centralizar a imagem */
+  justify-content: space-between;
   padding: 20px;
   position: relative;
 }
@@ -174,11 +176,11 @@ footer .social-icons img:hover {
     align-items: center;
     display: none;
   }
-  
+
   nav.active {
     display: flex;
   }
-  
+
   nav > a {
     margin: 5px 0;
     padding: 10px;
@@ -190,6 +192,7 @@ footer .social-icons img:hover {
 
   .header-title {
     max-width: 200px;
+    margin: 0 auto; /* Centraliza a imagem do logo horizontalmente */
   }
 
   main {
@@ -206,5 +209,10 @@ footer .social-icons img:hover {
 
   .centered-image {
     margin: 10px auto;
+  }
+
+  img {
+    max-width: 90%;
+    margin: 10px auto; /* Centraliza a imagem horizontalmente */
   }
 }
